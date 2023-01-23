@@ -6,7 +6,7 @@
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
-		"deploy": "env='gh-pages' yarn build && touch build/.nokjekyll && npx gh-pages -t -d build ",
+		"deploy": "env='gh-pages' yarn build && touch build/.nojekyll && npx gh-pages -d build -t",
 		"test": "playwright test",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
