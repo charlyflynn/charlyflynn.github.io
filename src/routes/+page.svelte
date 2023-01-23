@@ -54,6 +54,7 @@
 		width: 100%;
 		gap: 2em;
 		justify-content: center;
+		margin: 15px 0;
 	}
 	@media (max-width: 450px) {
 		.nav-container {
