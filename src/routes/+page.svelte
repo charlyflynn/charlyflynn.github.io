@@ -1,8 +1,13 @@
+<script>
+	import Clouds from './Clouds.svelte';
+</script>
+
 <svelte:head>
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet" />
 </svelte:head>
 
 <div class="hello">
+	<Clouds />
 	<h1>hello &#x1F44B;</h1>
 	<p>my name is Charly.</p>
 	<p>i'm a software engineer and musician based in London.</p>
@@ -26,7 +31,7 @@
 
 	:root {
 		font-family: 'Roboto Mono', monospace;
-		background-color: var(--main-bg-color);
+		background: linear-gradient(skyblue, var(--main-bg-color));
 	}
 	p {
 		margin: 30px;
@@ -71,7 +76,7 @@
 		color: inherit;
 		border: 1px solid var(--accent-color);
 		box-shadow: 0.5px 1px var(--accent-color);
-		border-radius: 0.6em;
+		border-radius: 0.4em;
 	}
 
 	a.disabled {
