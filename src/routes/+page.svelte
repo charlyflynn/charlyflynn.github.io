@@ -2,46 +2,55 @@
 	import Clouds from './Clouds.svelte';
 </script>
 
-<svelte:head>
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet" />
-</svelte:head>
-
-<div class="hello">
+<div class="hello page" id="hello">
 	<Clouds />
 	<h1>hello &#x1F44B;</h1>
 	<p>my name is Charly.</p>
 	<p>i'm a software engineer and musician based in London.</p>
 	<div class="nav-container">
-		<a href="https://github.com/charlyflynn" target="_blank" rel="noreferrer">- github</a>
-		<a href="https://www.linkedin.com/in/flynnch" target="_blank" rel="noreferrer"> - linkedin </a>
-		<a href="/" class="disabled" rel="noreferrer">- soundcloud</a>
+		<a class="link" href="https://github.com/charlyflynn" target="_blank" rel="noreferrer"
+			>- github</a
+		>
+		<a class="link" href="https://www.linkedin.com/in/flynnch" target="_blank" rel="noreferrer">
+			- linkedin
+		</a>
+		<a href="/" class="disabled link" rel="noreferrer">- soundcloud</a>
 	</div>
+	<a class="navbtn next" href="#projects"><div class="down arrow" /></a>
+</div>
+<div class="projects page" id="projects">
+	<a class="navbtn prev" href="#hello"><div class="up arrow" /></a>
+	<Clouds />
+	<h1>projects</h1>
 	<p>
 		sometimes I try and make fun things... but I'm currently rebuilding this page so hold tight.
 	</p>
 </div>
 
 <style>
-	:root {
-		--main-bg-color: #f0f9ff;
-		--accent-color: #bb6464;
-		--highlight-color: #cdb699;
-		--text-color: #2c2c2c;
-	}
-
-	:root {
-		font-family: 'Roboto Mono', monospace;
-		background: linear-gradient(skyblue, var(--main-bg-color));
-	}
 	p {
 		margin: 30px;
 		color: var(--text-color);
 		text-align: center;
 	}
 
-	.hello {
+	.page {
 		width: 100vw;
 		height: 100vh;
+		scroll-snap-align: start;
+		padding: 30px 0;
+		box-sizing: border-box;
+		position: relative;
+	}
+
+	.hello {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.projects {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -67,7 +76,7 @@
 		}
 	}
 
-	a {
+	.link {
 		padding: 0.8em 2.5em;
 		align-self: center;
 		text-decoration: none;
@@ -79,8 +88,38 @@
 		border-radius: 0.4em;
 	}
 
-	a.disabled {
+	.link:disabled {
 		cursor: not-allowed;
 		text-decoration: line-through;
+	}
+
+	.navbtn {
+		cursor: pointer;
+		position: absolute;
+	}
+
+	.prev {
+		top: 2em;
+	}
+
+	.next {
+		bottom: 2em;
+	}
+
+	.arrow {
+		border: solid var(--text-color);
+		border-width: 0 5px 5px 0;
+		display: inline-block;
+		padding: 5px;
+		background: transparent;
+	}
+	.up {
+		transform: rotate(-135deg);
+		-webkit-transform: rotate(-135deg);
+	}
+
+	.down {
+		transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
 	}
 </style>

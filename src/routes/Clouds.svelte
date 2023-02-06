@@ -51,7 +51,7 @@
 
 	.cloud {
 		position: absolute;
-		opacity: 0.8;
+		opacity: 0.6;
 	}
 
 	@keyframes scroll {
@@ -63,9 +63,10 @@
 		}
 	}
 	.container {
-		position: fixed;
+		position: absolute;
 		height: 100vh;
 		width: 100vw;
+		overflow: hidden;
 		z-index: -1;
 	}
 </style>
