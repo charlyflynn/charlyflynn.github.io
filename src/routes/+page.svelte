@@ -14,7 +14,7 @@
 		<a class="link" href="https://www.linkedin.com/in/flynnch" target="_blank" rel="noreferrer">
 			- linkedin
 		</a>
-		<a href="/" class="disabled link" rel="noreferrer">- soundcloud</a>
+		<a href="/" class="link disabled" rel="noreferrer">- soundcloud</a>
 	</div>
 	<a class="navbtn next" href="#projects"><div class="down arrow" /></a>
 </div>
@@ -87,8 +87,7 @@
 		box-shadow: 0.5px 1px var(--accent-color);
 		border-radius: 0.4em;
 	}
-
-	.link:disabled {
+	.disabled {
 		cursor: not-allowed;
 		text-decoration: line-through;
 	}
