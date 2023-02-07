@@ -14,7 +14,6 @@
 		<a class="link" href="https://www.linkedin.com/in/flynnch" target="_blank" rel="noreferrer">
 			- linkedin
 		</a>
-		<a href="/" class="link disabled" rel="noreferrer">- soundcloud</a>
 	</div>
 	<a class="next navbtn down" href="#projects"><div class="arrow" /></a>
 </div>
@@ -68,9 +67,10 @@
 	.nav-container {
 		display: flex;
 		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
 		width: 100%;
 		gap: 2em;
-		justify-content: center;
 		margin: 15px 0;
 	}
 	@media (max-width: 450px) {
@@ -80,21 +80,23 @@
 	}
 
 	.link {
-		padding: 0.8em 2.5em;
-		align-self: center;
-		text-decoration: none;
-		outline: none;
-		font-weight: bold;
-		color: inherit;
-		border: 1px solid var(--accent-color);
-		box-shadow: 0.5px 1px var(--accent-color);
-		border-radius: 0.4em;
-	}
-	.disabled {
-		cursor: not-allowed;
-		text-decoration: line-through;
-	}
+		display: flex;
+		align-items: center;
+		justify-content: center;
 
+		box-sizing: border-box;
+		padding-top: 0.8em;
+		padding-bottom: 0.8em;
+		border: 1px solid var(--accent-color);
+		border-radius: 0.4em;
+
+		min-width: 180px;
+		box-shadow: 0.5px 1px var(--accent-color);
+
+		font-weight: bold;
+		text-decoration: none;
+		color: inherit;
+	}
 	.navbtn {
 		cursor: pointer;
 		position: absolute;
