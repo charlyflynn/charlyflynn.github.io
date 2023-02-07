@@ -13,7 +13,6 @@
 		--text-color: #2c2c2c;
 
 		overflow-y: overlay;
-		scroll-snap-type: y proximity;
 		scroll-behavior: smooth;
 
 		background: linear-gradient(
