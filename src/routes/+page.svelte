@@ -1,5 +1,5 @@
 <script>
-	import Clouds from './Clouds.svelte';
+	import Clouds from '../components/Clouds/Clouds.svelte';
 </script>
 
 <div class="hello page" id="hello">
