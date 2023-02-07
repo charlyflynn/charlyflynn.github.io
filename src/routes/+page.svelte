@@ -16,10 +16,12 @@
 		</a>
 		<a href="/" class="link disabled" rel="noreferrer">- soundcloud</a>
 	</div>
-	<a class="navbtn next" href="#projects"><div class="down arrow" /></a>
+	<a class="next navbtn down" href="#projects"><div class="arrow" /></a>
 </div>
 <div class="projects page" id="projects">
-	<a class="navbtn prev" href="#hello"><div class="up arrow" /></a>
+	<a class="prev navbtn" href="#hello">
+		<div class="arrow" />
+	</a>
 	<Clouds />
 	<h1>projects</h1>
 	<p>
@@ -38,6 +40,7 @@
 		width: 100vw;
 		height: 100vh;
 		scroll-snap-align: start;
+		scroll-snap-stop: always;
 		padding: 30px 0;
 		box-sizing: border-box;
 		position: relative;
@@ -95,30 +98,32 @@
 	.navbtn {
 		cursor: pointer;
 		position: absolute;
+		width: 40px;
+		height: 40px;
+		border-radius: 20px;
+		background-color: rgba(0, 0, 0, 0.2);
 	}
 
 	.prev {
-		top: 2em;
+		top: 4em;
 	}
 
 	.next {
-		bottom: 2em;
+		bottom: 4em;
 	}
 
 	.arrow {
+		position: absolute;
 		border: solid var(--text-color);
 		border-width: 0 5px 5px 0;
-		display: inline-block;
 		padding: 5px;
-		background: transparent;
-	}
-	.up {
 		transform: rotate(-135deg);
-		-webkit-transform: rotate(-135deg);
+		transform-origin: center;
+		top: 15px;
+		left: 12.5px;
 	}
 
 	.down {
-		transform: rotate(45deg);
-		-webkit-transform: rotate(45deg);
+		transform: rotate(180deg);
 	}
 </style>
