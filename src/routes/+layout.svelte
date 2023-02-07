@@ -24,5 +24,7 @@
 			skyblue 125vh,
 			var(--main-bg-color) 200vh
 		);
+
+		color: var(--text-color);
 	}
 </style>

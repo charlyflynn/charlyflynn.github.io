@@ -5,32 +5,37 @@
 
 <div class="hello page" id="hello">
 	<Clouds />
-	<h1>hello &#x1F44B;</h1>
-	<p>my name is Charly.</p>
-	<p>i'm a software engineer and musician based in London.</p>
-	<div class="nav-container">
-		<a class="link" href="https://github.com/charlyflynn" target="_blank" rel="noreferrer"
-			>- github</a
-		>
-		<a class="link" href="https://www.linkedin.com/in/flynnch" target="_blank" rel="noreferrer">
-			- linkedin
-		</a>
+	<div>
+		<h1>hello &#x1F44B;</h1>
+		<p>my name is Charly.</p>
+		<p>i'm a software engineer and musician based in London.</p>
+		<div class="nav-container">
+			<a class="link" href="https://github.com/charlyflynn" target="_blank" rel="noreferrer"
+				>- github</a
+			>
+			<a class="link" href="https://www.linkedin.com/in/flynnch" target="_blank" rel="noreferrer">
+				- linkedin
+			</a>
+		</div>
 	</div>
 	<Arrow direction="down" href="#projects" />
 </div>
 <div class="projects page" id="projects">
 	<Arrow direction="up" href="#hello" />
-	<h1>projects</h1>
-	<p>
-		sometimes I try and make fun things... but I'm currently rebuilding this page so hold tight.
-	</p>
+	<div class="content">
+		<h1>projects</h1>
+		<p>
+			sometimes I try and make fun things... but I'm currently rebuilding this page so hold tight.
+		</p>
+	</div>
 </div>
 
 <style>
+	h1 {
+		margin: 30px 0;
+	}
 	p {
-		margin: 30px;
-		color: var(--text-color);
-		text-align: center;
+		margin: 30px 0;
 	}
 
 	.page {
@@ -38,7 +43,7 @@
 		height: 100vh;
 		scroll-snap-align: start;
 		scroll-snap-stop: always;
-		padding: 30px 0;
+		padding: 6em 2em;
 		box-sizing: border-box;
 		position: relative;
 	}
@@ -53,13 +58,12 @@
 	.projects {
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
+		justify-content: flex-start;
 		align-items: center;
 	}
 
-	h1 {
-		display: flex;
-		margin: 30px;
+	.content {
+		width: 100%;
 	}
 
 	.nav-container {
@@ -74,21 +78,22 @@
 	@media (max-width: 450px) {
 		.nav-container {
 			flex-direction: column;
+			align-items: flex-start;
 		}
 	}
 
 	.link {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-
 		box-sizing: border-box;
 		padding-top: 0.8em;
 		padding-bottom: 0.8em;
+		min-width: 180px;
+		justify-content: center;
+
+		display: flex;
+		align-items: center;
+
 		border: 1px solid var(--accent-color);
 		border-radius: 0.4em;
-
-		min-width: 180px;
 		box-shadow: 0.5px 1px var(--accent-color);
 
 		font-weight: bold;

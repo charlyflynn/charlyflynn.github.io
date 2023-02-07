@@ -1,9 +1,9 @@
 <script lang="ts">
 	export let href: string;
-	export let direction: 'up' | 'down';
+	export let direction: 'up' | 'down' = 'down';
 </script>
 
-<a class={`next navbtn ${direction}`} {href}><div class="arrow" /></a>
+<a class={`navbtn ${direction}`} {href}><div class="arrow" /></a>
 
 <style>
 	.navbtn {
@@ -13,6 +13,7 @@
 		height: 40px;
 		border-radius: 20px;
 		background-color: rgba(0, 0, 0, 0.2);
+		align-self: center;
 	}
 
 	.arrow {
