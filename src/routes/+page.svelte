@@ -1,5 +1,6 @@
-<script>
-	import Clouds from '../components/Clouds/Clouds.svelte';
+<script lang="ts">
+	import Clouds from '../components/Clouds.svelte';
+	import Arrow from '../components/Arrow.svelte';
 </script>
 
 <div class="hello page" id="hello">
@@ -15,13 +16,10 @@
 			- linkedin
 		</a>
 	</div>
-	<a class="next navbtn down" href="#projects"><div class="arrow" /></a>
+	<Arrow direction="down" href="#projects" />
 </div>
 <div class="projects page" id="projects">
-	<a class="prev navbtn" href="#hello">
-		<div class="arrow" />
-	</a>
-	<Clouds />
+	<Arrow direction="up" href="#hello" />
 	<h1>projects</h1>
 	<p>
 		sometimes I try and make fun things... but I'm currently rebuilding this page so hold tight.
@@ -96,36 +94,5 @@
 		font-weight: bold;
 		text-decoration: none;
 		color: inherit;
-	}
-	.navbtn {
-		cursor: pointer;
-		position: absolute;
-		width: 40px;
-		height: 40px;
-		border-radius: 20px;
-		background-color: rgba(0, 0, 0, 0.2);
-	}
-
-	.prev {
-		top: 4em;
-	}
-
-	.next {
-		bottom: 4em;
-	}
-
-	.arrow {
-		position: absolute;
-		border: solid var(--text-color);
-		border-width: 0 5px 5px 0;
-		padding: 5px;
-		transform: rotate(-135deg);
-		transform-origin: center;
-		top: 15px;
-		left: 12.5px;
-	}
-
-	.down {
-		transform: rotate(180deg);
 	}
 </style>

@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Cloud1 from './cloud1.svelte';
 	import Cloud2 from './cloud2.svelte';
 	import Cloud3 from './cloud3.svelte';
