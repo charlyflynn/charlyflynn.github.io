@@ -21,12 +21,21 @@
 	<Arrow direction="down" href="#projects" />
 </div>
 <div class="projects page" id="projects">
+	<Clouds />
 	<Arrow direction="up" href="#hello" />
 	<div class="content">
 		<h1>projects</h1>
-		<p>
-			sometimes I try and make fun things... but I'm currently rebuilding this page so hold tight.
-		</p>
+		<a
+			class="link"
+			href="https://acordes.netlify.app"
+			target="_blank"
+			rel="noreferrer"
+			style="text-align: left"
+		>
+			<h2>acordes</h2>
+			<p>a real-time, browser based chord analyser for piano/keys</p>
+			<p>usable with both MIDI keyboards as well as point and click</p>
+		</a>
 	</div>
 </div>
 
@@ -64,6 +73,9 @@
 
 	.content {
 		width: 100%;
+		display: flex;
+		flex-direction: column;
+		gap: 2em;
 	}
 
 	.nav-container {
@@ -84,13 +96,9 @@
 
 	.link {
 		box-sizing: border-box;
-		padding-top: 0.8em;
-		padding-bottom: 0.8em;
+		padding: 0.8em 2em;
 		min-width: 180px;
-		justify-content: center;
-
-		display: flex;
-		align-items: center;
+		text-align: center;
 
 		border: 1px solid var(--accent-color);
 		border-radius: 0.4em;
@@ -99,5 +107,7 @@
 		font-weight: bold;
 		text-decoration: none;
 		color: inherit;
+
+		background: rgba(255, 255, 255, 0.1);
 	}
 </style>

@@ -64,7 +64,7 @@
 	}
 	.container {
 		position: absolute;
-		height: 100vh;
+		height: 80vh;
 		width: 100vw;
 		overflow: hidden;
 		z-index: -1;
