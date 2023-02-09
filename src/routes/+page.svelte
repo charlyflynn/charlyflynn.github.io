@@ -10,8 +10,10 @@
 		<p>my name is Charly.</p>
 		<p>i'm a software engineer and musician based in London.</p>
 		<div class="nav-container">
-			<a href="https://github.com/charlyflynn" target="_blank" rel="noreferrer">⧉ github</a>
-			<a href="https://www.linkedin.com/in/flynnch" target="_blank" rel="noreferrer">
+			<a class="link" href="https://github.com/charlyflynn" target="_blank" rel="noreferrer"
+				>⧉ github</a
+			>
+			<a class="link" href="https://www.linkedin.com/in/flynnch" target="_blank" rel="noreferrer">
 				⧉ linkedin
 			</a>
 		</div>
@@ -23,10 +25,19 @@
 	<Clouds />
 	<div class="flex content">
 		<h1>projects.</h1>
-		<a href="https://acordes.netlify.app" target="_blank" rel="noreferrer" style="text-align: left">
+		<a
+			class="link"
+			href="https://acordes.netlify.app"
+			target="_blank"
+			rel="noreferrer"
+			style="text-align: left"
+		>
 			<h2>⧉ acordes</h2>
-			<p>a real-time, browser based chord analyser for piano/keys.</p>
-			<p>usable with both MIDI keyboards as well as point and click.</p>
+			<p>
+				a real-time, browser-based chord analyser for piano/keys.<br />usable with both MIDI
+				keyboards as well as point and click.
+			</p>
+			<p>work in progress.</p>
 		</a>
 	</div>
 </div>
@@ -73,7 +84,7 @@
 			align-items: flex-start;
 		}
 	}
-	a {
+	.link {
 		box-sizing: border-box;
 		padding: 0.8em 2em;
 		min-width: 180px;
