@@ -11,6 +11,7 @@
 		overflow-y: overlay;
 		scroll-behavior: smooth;
 
+		color-scheme: dark;
 		background: linear-gradient(
 			#39375b 0vh,
 			#745c97 25vh,
