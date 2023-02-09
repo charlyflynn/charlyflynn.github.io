@@ -22,7 +22,7 @@
 </div>
 <div id="projects" class="page">
 	<Arrow direction="up" href="#hi" />
-	<Clouds />
+	<Clouds offset={15} />
 	<div class="flex content">
 		<h1>projects.</h1>
 		<a
