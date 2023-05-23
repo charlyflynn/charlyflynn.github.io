@@ -1,14 +1,27 @@
 <script lang="ts">
 	import Clouds from '../components/Clouds.svelte';
 	import Arrow from '../components/Arrow.svelte';
+	import Navigation from '../components/Navigation.svelte';
 </script>
 
-<div id="hi" class="page">
+<Navigation />
+<div id="about" class="page">
 	<Clouds />
 	<div class="content">
 		<h1>hi.</h1>
 		<p>my name is Charly.</p>
-		<p>i'm a software engineer and musician based in London.</p>
+		<p>
+			i'm a <a
+				class="inline"
+				href="https://www.linkedin.com/in/flynnch"
+				target="_blank"
+				rel="noreferrer">software engineer</a
+			>
+			and
+			<a class="inline" href="https://www.linkedin.com/in/flynnch" target="_blank" rel="noreferrer"
+				>musician</a
+			> based in London.
+		</p>
 		<div class="nav-container">
 			<a class="link" href="https://github.com/charlyflynn" target="_blank" rel="noreferrer"
 				>⧉ github</a
@@ -21,10 +34,10 @@
 	<Arrow direction="down" href="#projects" />
 </div>
 <div id="projects" class="page">
-	<Arrow direction="up" href="#hi" />
+	<Arrow direction="up" href="#about" />
 	<Clouds offset={15} />
 	<div class="flex content">
-		<h1>projects.</h1>
+		<h2>projects.</h2>
 		<a
 			class="link"
 			href="https://acordes.netlify.app"
@@ -32,7 +45,7 @@
 			rel="noreferrer"
 			style="text-align: left"
 		>
-			<h2>⧉ acordes</h2>
+			<h3>⧉ acordes</h3>
 			<p>
 				a real-time, browser-based chord analyser for piano/keys.<br />usable with both MIDI
 				keyboards as well as point and click.
@@ -58,7 +71,7 @@
 	}
 
 	.content {
-		padding: 6em 3em;
+		padding: 6em;
 	}
 
 	.flex {
@@ -86,13 +99,36 @@
 	}
 	.link {
 		box-sizing: border-box;
-		padding: 0.8em 2em;
+		padding: 0.8rem 2em;
 		min-width: 180px;
-		text-align: left;
+		text-align: center;
+		backdrop-filter: blur(5px);
+		border-radius: 5px;
 
 		text-decoration: none;
 		color: inherit;
 
 		background: rgba(255, 255, 255, 0.1);
+	}
+
+	h1 {
+		font-size: 1.5rem;
+	}
+
+	h2 {
+		font-size: 1.3rem;
+	}
+
+	h3 {
+		font-size: 1.2rem;
+	}
+
+	p {
+		font-size: 1rem;
+	}
+
+	.inline {
+		text-decoration: none;
+		color: var(--text-color);
 	}
 </style>
