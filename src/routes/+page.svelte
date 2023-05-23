@@ -11,16 +11,9 @@
 		<h1>hi.</h1>
 		<p>my name is Charly.</p>
 		<p>
-			i'm a <a
-				class="inline"
-				href="https://www.linkedin.com/in/flynnch"
-				target="_blank"
-				rel="noreferrer">software engineer</a
-			>
+			i'm a <a class="inline" href="#web">software engineer</a>
 			and
-			<a class="inline" href="https://www.linkedin.com/in/flynnch" target="_blank" rel="noreferrer"
-				>musician</a
-			> based in London.
+			<a class="inline" href="#music">musician</a> based in London.
 		</p>
 		<div class="nav-container">
 			<a class="link" href="https://github.com/charlyflynn" target="_blank" rel="noreferrer"
@@ -144,8 +137,9 @@
 	}
 
 	.content {
+		box-sizing: border-box;
 		padding: 3em;
-		/* width: 85%; */
+		width: 100%;
 	}
 
 	.flex {
@@ -155,12 +149,13 @@
 	}
 
 	#projects {
+		box-sizing: border-box;
 		display: flex;
 		align-self: center;
 		flex-direction: row;
 		gap: 1em;
 		overflow-x: scroll;
-		width: 75vw;
+		width: 100%;
 	}
 
 	.project {
