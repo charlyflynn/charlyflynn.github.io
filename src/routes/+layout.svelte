@@ -1,12 +1,17 @@
 <slot />
 
 <style>
+	:body {
+		margin: 0;
+		right: 0;
+	}
 	:root {
 		font-family: 'Roboto Mono', monospace;
 		--main-bg-color: #f0f9ff;
 		--accent-color: #bb6464;
 		--highlight-color: #cdb699;
 		--text-color: #2c2c2c;
+		--link-color: #642b6b;
 
 		overflow-y: overlay;
 		scroll-behavior: smooth;
@@ -15,16 +20,18 @@
 		color: var(--text-color);
 		font-size: 15px;
 
-		/* bg for 2 pages  */
+		/* new 3 page bg  */
 		background: linear-gradient(
 			#39375b 0vh,
 			#745c97 25vh,
 			#d597ce 50vh,
-			#f5b0cb 95vh,
-			skyblue 125vh,
-			var(--main-bg-color) 200vh
+			#f5b0cb 85vh,
+			#f09f9c,
+			#fd9d7f,
+			#ffc19f 200vh,
+			skyblue 230vh,
+			var(--main-bg-color) 280vh
 		);
-
 		/* bg for 3 pages  */
 		/* background: linear-gradient(
 			#39375b 0vh,

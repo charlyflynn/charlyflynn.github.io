@@ -12,7 +12,7 @@
 		width: 40px;
 		height: 40px;
 		border-radius: 20px;
-		background-color: rgba(255, 255, 255, 0.3);
+		background-color: rgba(255, 255, 240, 0.25);
 		align-self: center;
 	}
 

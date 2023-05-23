@@ -1,13 +1,13 @@
 <script lang="ts">
 	import Clouds from '../components/Clouds.svelte';
-	import Arrow from '../components/Arrow.svelte';
+	// import Arrow from '../components/Arrow.svelte';
 	import Navigation from '../components/Navigation.svelte';
 </script>
 
 <Navigation />
 <div id="about" class="page">
 	<Clouds />
-	<div class="content">
+	<div class="flex content">
 		<h1>hi.</h1>
 		<p>my name is Charly.</p>
 		<p>
@@ -29,29 +29,102 @@
 			<a class="link" href="https://www.linkedin.com/in/flynnch" target="_blank" rel="noreferrer">
 				⧉ linkedin
 			</a>
+			<a class="link" href="https://soundcloud.com/charlieflynn" target="_blank" rel="noreferrer">
+				⧉ soundcloud
+			</a>
 		</div>
 	</div>
-	<Arrow direction="down" href="#projects" />
+	<!-- <Arrow direction="down" href="#projects" /> -->
 </div>
-<div id="projects" class="page">
-	<Arrow direction="up" href="#about" />
+<div id="web" class="page">
+	<!-- <Arrow direction="up" href="#about" /> -->
 	<Clouds offset={15} />
 	<div class="flex content">
-		<h2>projects.</h2>
-		<a
-			class="link"
-			href="https://acordes.netlify.app"
-			target="_blank"
-			rel="noreferrer"
-			style="text-align: left"
-		>
-			<h3>⧉ acordes</h3>
-			<p>
-				a real-time, browser-based chord analyser for piano/keys.<br />usable with both MIDI
-				keyboards as well as point and click.
-			</p>
-			<p>work in progress.</p>
-		</a>
+		<h2>software engineering.</h2>
+		<p>
+			I am a full stack engineer, working predominantly with javascript, html, css, typescript,
+			react, node.js and a plethora of related technologies.
+		</p>
+		<p>
+			I spent 4 years working with IBM iX design consultancy, building bespoke websites for a
+			diverse range of clients. Following IBM, I moved to <a
+				class="inline"
+				href="https://www.wavepaths.com"
+				target="_blank"
+				rel="noreferrer"
+			>
+				⧉wavepaths
+			</a> as a senior full-stack engineer, working on user interfaces and proprietary music generation
+			systems.
+		</p>
+		<p>I am currently working as freelance web developer.</p>
+		<h2>current projects:</h2>
+		<div id="projects">
+			<a
+				class="link project"
+				href="https://orii-community.netlify.app"
+				target="_blank"
+				rel="noreferrer"
+				style="text-align: left"
+			>
+				<h3>⧉ Orii Community</h3>
+				<p>
+					A website for Orii Community, a collective of instrumentalist, singers, rappers and
+					artists creating live, improvised music in London
+				</p>
+				<p>A work-in-progress commission.</p>
+			</a>
+
+			<a
+				class="link project"
+				href="https://acordes.netlify.app"
+				target="_blank"
+				rel="noreferrer"
+				style="text-align: left"
+			>
+				<h3>⧉ acordes</h3>
+				<p>
+					A real-time, browser-based chord analyser for piano/keys.<br />usable with both MIDI
+					keyboards as well as point and click.
+				</p>
+				<p>A work-in-progress pet project.</p>
+			</a>
+
+			<a
+				class="link project"
+				href="https://charliyoga.com"
+				target="_blank"
+				rel="noreferrer"
+				style="text-align: left"
+			>
+				<h3>⧉ Charli Livingstone Yoga</h3>
+				<p>Website for Charli Livingstone yoga.</p>
+				<p>A live squarespace commission.</p>
+			</a>
+		</div>
+	</div>
+	<!-- <Arrow direction="down" href="#music" /> -->
+</div>
+<div id="music" class="page">
+	<!-- <Arrow direction="up" href="#about" /> -->
+	<Clouds offset={32} />
+	<div class="flex content">
+		<h2>music.</h2>
+		<p>I am a multi-instrumentalist, composer and producer.</p>
+		<p>
+			As a session musician, I have recorded at BBC Maida Vale Studios, Total Refreshment Centre and
+			Brighton Road Recording Studios for artists/projects such as Dirty Nice, Orii Community and
+			Zami Yazeed.
+		</p>
+		<p>
+			My compositions have found their way into podcasts and exhibitions, most recently scoring the
+			exhibition and short film <a
+				class="inline"
+				href="https://www.staffordshirest.com/thestore"
+				target="_blank"
+				rel="noreferrer"><i>⧉The Store</i></a
+			> by Tilly Wace and Kaia Goodenough, held at Staffordshire Street gallery in Peckham.
+		</p>
 	</div>
 </div>
 
@@ -71,16 +144,29 @@
 	}
 
 	.content {
-		padding: 6em;
+		padding: 3em;
+		/* width: 85%; */
 	}
 
 	.flex {
 		display: flex;
 		flex-direction: column;
-		justify-content: flex-start;
-		align-items: flex-start;
+		justify-content: center;
 	}
 
+	#projects {
+		display: flex;
+		align-self: center;
+		flex-direction: row;
+		gap: 1em;
+		overflow-x: scroll;
+		width: 75vw;
+	}
+
+	.project {
+		min-width: 15em;
+		/* width: 25em; */
+	}
 	.nav-container {
 		display: flex;
 		flex-wrap: wrap;
@@ -88,8 +174,14 @@
 		justify-content: flex-start;
 		align-items: center;
 		width: 100%;
-		gap: 2em;
-		margin: 15px 0;
+		gap: 1em;
+		padding: 1em;
+
+		/* margin: 15px 0; */
+	}
+
+	.nav-container a {
+		min-width: 180px;
 	}
 	@media (max-width: 450px) {
 		.nav-container {
@@ -99,16 +191,16 @@
 	}
 	.link {
 		box-sizing: border-box;
-		padding: 0.8rem 2em;
-		min-width: 180px;
+		border-radius: 5px;
+		padding: 0.8rem 1.5em;
+
 		text-align: center;
 		backdrop-filter: blur(5px);
-		border-radius: 5px;
+		background: rgba(255, 255, 240, 0.1);
+		filter: brightness(1.1);
 
 		text-decoration: none;
 		color: inherit;
-
-		background: rgba(255, 255, 255, 0.1);
 	}
 
 	h1 {
@@ -116,7 +208,7 @@
 	}
 
 	h2 {
-		font-size: 1.3rem;
+		font-size: 1.4rem;
 	}
 
 	h3 {
@@ -128,7 +220,6 @@
 	}
 
 	.inline {
-		text-decoration: none;
-		color: var(--text-color);
+		color: inherit;
 	}
 </style>
