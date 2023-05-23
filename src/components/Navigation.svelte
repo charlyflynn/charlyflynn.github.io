@@ -1,6 +1,6 @@
 <div class="nav-container">
 	<a class="link" href="#about" rel="noreferrer">about</a>
-	<a class="link" href="#web" rel="noreferrer"> software/web </a>
+	<a class="link" href="#tech" rel="noreferrer">tech</a>
 	<a class="link" href="#music" rel="noreferrer"> music </a>
 </div>
 

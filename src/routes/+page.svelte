@@ -11,7 +11,7 @@
 		<h1>hi.</h1>
 		<p>my name is Charly.</p>
 		<p>
-			i'm a <a class="inline" href="#web">software engineer</a>
+			i'm a <a class="inline" href="#tech">software engineer</a>
 			and
 			<a class="inline" href="#music">musician</a> based in London.
 		</p>
@@ -29,14 +29,14 @@
 	</div>
 	<!-- <Arrow direction="down" href="#projects" /> -->
 </div>
-<div id="web" class="page">
+<div id="tech" class="page">
 	<!-- <Arrow direction="up" href="#about" /> -->
 	<Clouds offset={15} />
 	<div class="flex content">
-		<h2>software engineering.</h2>
+		<h2>tech.</h2>
 		<p>
-			I am a full stack engineer, working predominantly with javascript, html, css, typescript,
-			react, node.js and a plethora of related technologies.
+			I am a full stack software engineer, working predominantly with javascript, html, css,
+			typescript, react, node.js and a plethora of related technologies.
 		</p>
 		<p>
 			I spent 4 years working with IBM iX design consultancy, building bespoke websites for a
@@ -50,7 +50,7 @@
 			</a> as a senior full-stack engineer, working on user interfaces and proprietary music generation
 			systems.
 		</p>
-		<p>I am currently working as freelance web developer.</p>
+		<p>I am currently working as a freelance web developer.</p>
 		<h2>current projects:</h2>
 		<div id="projects">
 			<a
