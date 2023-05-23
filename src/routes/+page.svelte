@@ -91,7 +91,7 @@
 				style="text-align: left"
 			>
 				<h3>⧉ Charli Livingstone Yoga</h3>
-				<p>Website for Charli Livingstone yoga.</p>
+				<p>Professional website for yoga instructor Charli Livingstone.</p>
 				<p>A live squarespace commission.</p>
 			</a>
 		</div>
@@ -152,27 +152,27 @@
 		box-sizing: border-box;
 		display: flex;
 		align-self: center;
+		flex-grow: 0;
 		flex-direction: row;
 		gap: 1em;
+		padding: 0 1.5em;
 		overflow-x: scroll;
-		width: 100%;
+		width: 100vw;
 	}
 
 	.project {
 		min-width: 15em;
-		/* width: 25em; */
+		width: 25em;
 	}
 	.nav-container {
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: row;
 		justify-content: flex-start;
-		align-items: center;
+		/* align-items: center; */
 		width: 100%;
 		gap: 1em;
-		padding: 1em;
-
-		/* margin: 15px 0; */
+		padding: 1.5em 0em;
 	}
 
 	.nav-container a {
@@ -181,7 +181,7 @@
 	@media (max-width: 450px) {
 		.nav-container {
 			flex-direction: column;
-			align-items: flex-start;
+			align-items: center;
 		}
 	}
 	.link {

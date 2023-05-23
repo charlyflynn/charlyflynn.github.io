@@ -1,10 +1,6 @@
 <slot />
 
 <style>
-	:body {
-		margin: 0;
-		right: 0;
-	}
 	:root {
 		font-family: 'Roboto Mono', monospace;
 		--main-bg-color: #f0f9ff;
