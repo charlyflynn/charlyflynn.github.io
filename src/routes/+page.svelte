@@ -118,6 +118,14 @@
 				rel="noreferrer"><i>⧉The Store</i></a
 			> by Tilly Wace and Kaia Goodenough, held at Staffordshire Street gallery in Peckham.
 		</p>
+		<p>
+			You can otherwise find me playing bass with my band <a
+				class="inline"
+				href="https://www.instagram.com/pangaea.band/"
+				target="_blank"
+				rel="noreferrer">⧉pangaea</a
+			>, or perusing London's offering of gigs and jams.
+		</p>
 	</div>
 </div>
 
@@ -155,7 +163,7 @@
 		flex-grow: 0;
 		flex-direction: row;
 		gap: 1em;
-		padding: 0 1.5em;
+		padding: 0 3em;
 		overflow-x: scroll;
 		width: 100vw;
 	}
