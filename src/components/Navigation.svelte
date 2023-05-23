@@ -10,7 +10,7 @@
 		flex-direction: row;
 		justify-content: flex-end;
 		align-items: center;
-		gap: 1em;
+		gap: 0.5em;
 		padding: 1em;
 
 		position: fixed;
@@ -19,16 +19,22 @@
 		z-index: 100;
 	}
 
+	@media (max-width: 450px) {
+		.nav-container {
+			flex-direction: column;
+			align-items: flex-end;
+		}
+	}
+
 	.link {
 		box-sizing: border-box;
 		border-radius: 5px;
-		padding: 0.6rem 1.5em;
+		padding: 0.6rem 1em;
 
 		background: rgba(255, 255, 240, 0.1);
 		backdrop-filter: blur(5px);
 		filter: brightness(1.1);
 
-		text-align: center;
 		text-decoration: none;
 		color: inherit;
 
