@@ -164,7 +164,7 @@
 		flex-direction: row;
 		gap: 1em;
 		padding: 0 3em;
-		overflow-x: scroll;
+		overflow-x: auto;
 		width: 100vw;
 	}
 
