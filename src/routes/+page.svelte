@@ -5,7 +5,7 @@
 </script>
 
 <Navigation />
-<div id="about" class="page">
+<div id="about" class="fixed page">
 	<Clouds />
 	<div class="flex content">
 		<h1>hi.</h1>
@@ -29,7 +29,7 @@
 	</div>
 	<!-- <Arrow direction="down" href="#projects" /> -->
 </div>
-<div id="tech" class="page">
+<div id="tech" class="variable page">
 	<!-- <Arrow direction="up" href="#about" /> -->
 	<Clouds offset={15} />
 	<div class="flex content">
@@ -98,7 +98,7 @@
 	</div>
 	<!-- <Arrow direction="down" href="#music" /> -->
 </div>
-<div id="music" class="page">
+<div id="music" class="variable page">
 	<!-- <Arrow direction="up" href="#about" /> -->
 	<Clouds offset={32} />
 	<div class="flex content">
@@ -129,7 +129,7 @@
 	</div>
 </div>
 
-<style>
+<style lang="scss">
 	.page {
 		width: 100vw;
 		height: 100vh;
@@ -142,6 +142,14 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: flex-start;
+
+		&.fixed {
+			height: 100vh;
+		}
+		&.variable {
+			height: 100%;
+			min-height: 100vh;
+		}
 	}
 
 	.content {

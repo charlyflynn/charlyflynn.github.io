@@ -24,9 +24,9 @@
 			#f5b0cb 85vh,
 			#f09f9c,
 			#fd9d7f,
-			#ffc19f 200vh,
-			skyblue 230vh,
-			var(--main-bg-color) 280vh
+			#ffc19f 66%,
+			skyblue 76%,
+			var(--main-bg-color) 93%
 		);
 		/* bg for 3 pages  */
 		/* background: linear-gradient(
