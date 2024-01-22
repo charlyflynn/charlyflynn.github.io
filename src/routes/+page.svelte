@@ -35,8 +35,8 @@
 	<div class="flex content">
 		<h2>tech.</h2>
 		<p>
-			I am a full stack software engineer, working predominantly with javascript, html, css,
-			typescript, react, node.js and a plethora of related technologies.
+			I am a full stack software engineer, working predominantly with javascript/typescript,
+			html/css, react, node.js and a variety of related technologies.
 		</p>
 		<p>
 			I spent 4 years working with IBM iX design consultancy, building bespoke websites for a
@@ -47,10 +47,13 @@
 				rel="noreferrer"
 			>
 				⧉wavepaths
-			</a> as a senior full-stack engineer, working on user interfaces and proprietary music generation
-			systems.
+			</a> as a senior full-stack engineer, working primarily on user interfaces and their proprietary
+			music generation systems.
 		</p>
-		<p>I am currently working as a freelance web developer.</p>
+		<p>
+			I am currently working as a freelance web developer, covering everything from bespoke custom
+			builds to working with website builder systems.
+		</p>
 		<h2>current projects:</h2>
 		<div id="projects">
 			<a
@@ -65,9 +68,41 @@
 					A website for Orii Community, a collective of instrumentalist, singers, rappers and
 					artists creating live, improvised music in London
 				</p>
-				<p>A work-in-progress commission.</p>
+				<p><i>(A work-in-progress commission. react/next.js frontend and sanity.io CMS)</i></p>
 			</a>
-
+			<a
+				class="link project"
+				href="https://lotusnova.org"
+				target="_blank"
+				rel="noreferrer"
+				style="text-align: left"
+			>
+				<h3>⧉ Lotus Nova</h3>
+				<p>A landing page for the Lotus Nova event organisers and artist talent platform .</p>
+				<p><i>(react/next.js frontend and sanity.io CMS)</i></p>
+			</a>
+			<a
+				class="link project"
+				href="https://www.rebekahreidviolin.co.uk/"
+				target="_blank"
+				rel="noreferrer"
+				style="text-align: left"
+			>
+				<h3>⧉ Rebekah Reid // TÄPP Collective</h3>
+				<p>A site for violinist, band leader and composer Bekah Reid</p>
+				<p><i>(maintenance of a wix site)</i></p>
+			</a>
+			<a
+				class="link project"
+				href="https://www.deptfordx.org"
+				target="_blank"
+				rel="noreferrer"
+				style="text-align: left"
+			>
+				<h3>⧉ Deptford X</h3>
+				<p>A website for Deptford x festival of visual arts.</p>
+				<p><i>(maintenance of wordpress site)</i></p>
+			</a>
 			<a
 				class="link project"
 				href="https://acordes.netlify.app"
@@ -77,12 +112,11 @@
 			>
 				<h3>⧉ acordes</h3>
 				<p>
-					A real-time, browser-based chord analyser for piano/keys.<br />usable with both MIDI
-					keyboards as well as point and click.
+					A real-time, browser-based chord analyser for keys.<br />usable with both MIDI keyboards
+					as well as point and click.
 				</p>
-				<p>A work-in-progress pet project.</p>
+				<p><i>(a work-in-progress pet project)</i></p>
 			</a>
-
 			<a
 				class="link project"
 				href="https://charliyoga.com"
@@ -92,7 +126,7 @@
 			>
 				<h3>⧉ Charli Livingstone Yoga</h3>
 				<p>Professional website for yoga instructor Charli Livingstone.</p>
-				<p>A live squarespace commission.</p>
+				<p><i>(a squarespace commission)</i></p>
 			</a>
 		</div>
 	</div>
@@ -103,11 +137,17 @@
 	<Clouds offset={32} />
 	<div class="flex content">
 		<h2>music.</h2>
-		<p>I am a multi-instrumentalist, composer and producer.</p>
 		<p>
-			As a session musician, I have recorded at BBC Maida Vale Studios, Total Refreshment Centre and
-			Brighton Road Recording Studios for artists/projects such as Dirty Nice, Orii Community and
-			Zami Yazeed.
+			I am a multi-instrumentalist, composer and producer. You can find me exploring a wide range of
+			genres including jazz, electronic, folk and most things in-between.
+		</p>
+		<p>
+			As a session musician, I have worked closely with projects such as Orii Community, Dirty Nice,
+			Zami Yazeed, Millie Gibson, EllC, Rebekah Reid & TÄPP Collective. I have recorded live
+			sessions for BBC Introducing at Maida Vale Studios and for Woodburner music at Dalston Curve
+			Garden, as well as having the opportunity to record and perform at places such as Total
+			Refreshment Centre, Pizza Express Soho, House of Koko, Servant Jazz Quarter, London Jazz
+			festival and Peckham festival.
 		</p>
 		<p>
 			My compositions have found their way into podcasts and exhibitions, most recently scoring the
@@ -119,12 +159,22 @@
 			> by Tilly Wace and Kaia Goodenough, held at Staffordshire Street gallery in Peckham.
 		</p>
 		<p>
+			Also held at the gallery is <a
+				class="inline"
+				href="https://www.instagram.com/donut__jam/"
+				target="_blank"
+				rel="noreferrer"><i>⧉Donut Jam</i></a
+			>, a monthly evening of sonic and visual collaboration and experimentation that I curate.
+			Bands from London's music scene are invited to perform in the round to a backdrop of
+			interactive visual projection, followed by an open jam featuring London's most talented.
+		</p>
+		<p>
 			You can otherwise find me playing bass with my band <a
 				class="inline"
 				href="https://www.instagram.com/pangaea.band/"
 				target="_blank"
 				rel="noreferrer">⧉pangaea</a
-			>, or perusing London's offering of gigs and jams.
+			>, or perusing London's offering of gigs, jams and sessions.
 		</p>
 	</div>
 </div>
