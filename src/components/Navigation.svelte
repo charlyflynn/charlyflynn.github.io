@@ -19,6 +19,10 @@
 		z-index: 100;
 	}
 
+	.nav-container > a {
+		min-width: 100px;
+	}
+
 	@media (max-width: 450px) {
 		.nav-container {
 			flex-direction: column;
@@ -30,6 +34,8 @@
 		box-sizing: border-box;
 		border-radius: 5px;
 		padding: 0.6rem 1em;
+
+		text-align: center;
 
 		background: rgba(255, 255, 240, 0.1);
 		backdrop-filter: blur(5px);
