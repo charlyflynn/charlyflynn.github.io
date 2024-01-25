@@ -51,12 +51,12 @@
 			music generation systems.
 		</p>
 		<p>
-			I am currently working as a freelance web developer, covering everything from bespoke custom
-			builds to working with website builder systems.
+			Currently I work as a freelance web developer, covering everything from bespoke builds, to
+			maintenance, to working with website builder systems.
 		</p>
 		<h2>current projects:</h2>
 		<div id="projects">
-			<a
+			<!-- <a
 				class="link project"
 				href="https://orii-community.netlify.app"
 				target="_blank"
@@ -69,7 +69,7 @@
 					artists creating live, improvised music in London
 				</p>
 				<p><i>(A work-in-progress commission. react/next.js frontend and sanity.io CMS)</i></p>
-			</a>
+			</a> -->
 			<a
 				class="link project"
 				href="https://lotusnova.org"
@@ -143,10 +143,10 @@
 		</p>
 		<p>
 			As a session musician, I have worked closely with projects such as Orii Community, Dirty Nice,
-			Zami Yazeed, Millie Gibson, EllC, Rebekah Reid & TÄPP Collective. I have recorded live
+			Zami Yazeed, Millie Gibson, EllC, Rebekah Reid and TÄPP Collective. I have recorded live
 			sessions for BBC Introducing at Maida Vale Studios and for Woodburner music at Dalston Curve
 			Garden, as well as having the opportunity to record and perform at places such as Total
-			Refreshment Centre, Pizza Express Soho, House of Koko, Servant Jazz Quarter, London Jazz
+			Refreshment Centre, Pizza Express Soho, House of Koko, Servant Jazz Quarters, London Jazz
 			festival and Peckham festival.
 		</p>
 		<p>
@@ -181,8 +181,8 @@
 
 <style lang="scss">
 	.page {
-		width: 100vw;
 		height: 100vh;
+		height: 100svh;
 		scroll-snap-align: start;
 		scroll-snap-stop: always;
 		box-sizing: border-box;
@@ -218,18 +218,18 @@
 		box-sizing: border-box;
 		display: flex;
 		align-self: center;
-		flex-grow: 0;
-		flex-direction: row;
 		gap: 1em;
 		padding: 0 3em;
 		overflow-x: auto;
 		width: 100vw;
+		padding-bottom: 1.5em;
 	}
 
 	.project {
-		min-width: 15em;
-		width: 25em;
+		min-width: 250px;
+		/* width: 100%; */
 	}
+
 	.nav-container {
 		display: flex;
 		flex-wrap: wrap;
