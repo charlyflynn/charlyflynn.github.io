@@ -70,7 +70,7 @@
 	.container {
 		position: absolute;
 		height: 100%;
-		width: 100vw;
+		width: 100%;
 		overflow: hidden;
 		z-index: -1;
 		top: 0;
