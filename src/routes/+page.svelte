@@ -56,8 +56,9 @@
 			maintenance, to working with website builder systems.
 		</p>
 		<h2>current projects:</h2>
-		<div id="projects">
-			<!-- <a
+	</div>
+	<div id="projects">
+		<!-- <a
 				class="link project"
 				href="https://orii-community.netlify.app"
 				target="_blank"
@@ -71,65 +72,64 @@
 				</p>
 				<p><i>(A work-in-progress commission. react/next.js frontend and sanity.io CMS)</i></p>
 			</a> -->
-			<a
-				class="link project"
-				href="https://lotusnova.org"
-				target="_blank"
-				rel="noreferrer"
-				style="text-align: left"
-			>
-				<h3>⧉ Lotus Nova</h3>
-				<p>A landing page for the Lotus Nova event organisers and artist talent platform .</p>
-				<p><i>(react/next.js frontend and sanity.io CMS)</i></p>
-			</a>
-			<a
-				class="link project"
-				href="https://www.rebekahreidviolin.co.uk/"
-				target="_blank"
-				rel="noreferrer"
-				style="text-align: left"
-			>
-				<h3>⧉ Rebekah Reid // TÄPP Collective</h3>
-				<p>A site for violinist, band leader and composer Bekah Reid</p>
-				<p><i>(maintenance of a wix site)</i></p>
-			</a>
-			<a
-				class="link project"
-				href="https://www.deptfordx.org"
-				target="_blank"
-				rel="noreferrer"
-				style="text-align: left"
-			>
-				<h3>⧉ Deptford X</h3>
-				<p>A website for Deptford x festival of visual arts.</p>
-				<p><i>(maintenance of wordpress site)</i></p>
-			</a>
-			<a
-				class="link project"
-				href="https://acordes.netlify.app"
-				target="_blank"
-				rel="noreferrer"
-				style="text-align: left"
-			>
-				<h3>⧉ acordes</h3>
-				<p>
-					A real-time, browser-based chord analyser for keys.<br />usable with both MIDI keyboards
-					as well as point and click.
-				</p>
-				<p><i>(a work-in-progress pet project)</i></p>
-			</a>
-			<a
-				class="link project"
-				href="https://charliyoga.com"
-				target="_blank"
-				rel="noreferrer"
-				style="text-align: left"
-			>
-				<h3>⧉ Charli Livingstone Yoga</h3>
-				<p>Professional website for yoga instructor Charli Livingstone.</p>
-				<p><i>(a squarespace commission)</i></p>
-			</a>
-		</div>
+		<a
+			class="link project"
+			href="https://lotusnova.org"
+			target="_blank"
+			rel="noreferrer"
+			style="text-align: left"
+		>
+			<h3>⧉ Lotus Nova</h3>
+			<p>A landing page for the Lotus Nova event organisers and artist talent platform .</p>
+			<p><i>(react/next.js frontend and sanity.io CMS)</i></p>
+		</a>
+		<a
+			class="link project"
+			href="https://www.rebekahreidviolin.co.uk/"
+			target="_blank"
+			rel="noreferrer"
+			style="text-align: left"
+		>
+			<h3>⧉ Rebekah Reid // TÄPP Collective</h3>
+			<p>A site for violinist, band leader and composer Bekah Reid</p>
+			<p><i>(maintenance of a wix site)</i></p>
+		</a>
+		<a
+			class="link project"
+			href="https://www.deptfordx.org"
+			target="_blank"
+			rel="noreferrer"
+			style="text-align: left"
+		>
+			<h3>⧉ Deptford X</h3>
+			<p>A website for Deptford x festival of visual arts.</p>
+			<p><i>(maintenance of wordpress site)</i></p>
+		</a>
+		<a
+			class="link project"
+			href="https://acordes.netlify.app"
+			target="_blank"
+			rel="noreferrer"
+			style="text-align: left"
+		>
+			<h3>⧉ acordes</h3>
+			<p>
+				A real-time, browser-based chord analyser for keys.<br />usable with both MIDI keyboards as
+				well as point and click.
+			</p>
+			<p><i>(a work-in-progress pet project)</i></p>
+		</a>
+		<a
+			class="link project"
+			href="https://charliyoga.com"
+			target="_blank"
+			rel="noreferrer"
+			style="text-align: left"
+		>
+			<h3>⧉ Charli Livingstone Yoga</h3>
+			<p>Professional website for yoga instructor Charli Livingstone.</p>
+			<p><i>(a squarespace commission)</i></p>
+		</a>
 	</div>
 	<!-- <Arrow direction="down" href="#music" /> -->
 </div>
@@ -227,13 +227,13 @@
 		gap: 1em;
 		padding: 0 3em;
 		overflow-x: auto;
-		width: 100vw;
+		width: 100%;
 		padding-bottom: 1.5em;
 	}
 
 	.project {
 		min-width: 250px;
-		width: 100%;
+		width: 400px;
 	}
 
 	.nav-container {
