@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Clouds from '../components/Clouds.svelte';
+	import Youtube from 'svelte-youtube-embed';
 	// import Arrow from '../components/Arrow.svelte';
 	import Navigation from '../components/Navigation.svelte';
 </script>
@@ -149,6 +150,9 @@
 			Refreshment Centre, Pizza Express Soho, House of Koko, Servant Jazz Quarters, London Jazz
 			festival and Peckham festival.
 		</p>
+		<div class="youtube-container">
+			<Youtube id="6v9Zjigammk" />
+		</div>
 		<p>
 			My compositions have found their way into podcasts and exhibitions, most recently scoring the
 			exhibition and short film <a
@@ -197,6 +201,8 @@
 			height: 100vh;
 		}
 		&.variable {
+			padding-top: 250px;
+			padding-bottom: 250px;
 			height: 100%;
 			min-height: 100vh;
 		}
@@ -227,7 +233,7 @@
 
 	.project {
 		min-width: 250px;
-		/* width: 100%; */
+		width: 100%;
 	}
 
 	.nav-container {
@@ -264,6 +270,12 @@
 		color: inherit;
 	}
 
+	.youtube-container {
+		max-width: 1080px;
+		width: 100%;
+		padding: 3rem 0;
+	}
+
 	h1 {
 		font-size: 1.5rem;
 	}
@@ -278,6 +290,7 @@
 
 	p {
 		font-size: 1rem;
+		max-width: 1080px;
 	}
 
 	.inline {
