@@ -48,7 +48,7 @@
 				rel="noreferrer"
 			>
 				⧉wavepaths
-			</a> as a senior full-stack engineer, working primarily on user interfaces and their proprietary
+			</a> as a senior full-stack engineer, working primarily on user interfaces and with their proprietary
 			music generation systems.
 		</p>
 		<p>
@@ -81,7 +81,7 @@
 		>
 			<h3>⧉ Lotus Nova</h3>
 			<p>A landing page for the Lotus Nova event organisers and artist talent platform .</p>
-			<p><i>(react/next.js frontend and sanity.io CMS)</i></p>
+			<p><i>(WIP react/next.js frontend and sanity.io CMS)</i></p>
 		</a>
 		<a
 			class="link project"
@@ -143,12 +143,12 @@
 			genres including jazz, electronic, folk and most things in-between.
 		</p>
 		<p>
-			As a session musician, I have worked closely with projects such as Orii Community, Dirty Nice,
-			Zami Yazeed, Millie Gibson, EllC, Rebekah Reid and TÄPP Collective. I have recorded live
-			sessions for BBC Introducing at Maida Vale Studios and for Woodburner music at Dalston Curve
-			Garden, as well as having the opportunity to record and perform at places such as Total
-			Refreshment Centre, Pizza Express Soho, House of Koko, Servant Jazz Quarters, London Jazz
-			festival and Peckham festival.
+			As a session musician, I work closely with projects such as Orii Community, Dirty Nice, Zami
+			Yazeed, Millie Gibson, EllC, Rebekah Reid and TÄPP Collective. I have recorded live for BBC
+			Introducing at Maida Vale Studios and for Woodburner music at Dalston Curve Garden, on top of
+			having the opportunity to record and perform at iconic places such as Total Refreshment
+			Centre, Pizza Express Soho, House of Koko, Servant Jazz Quarters, London Jazz Festival and
+			Sofar Sounds.
 		</p>
 		<div class="youtube-container">
 			<Youtube id="6v9Zjigammk" />
@@ -178,7 +178,8 @@
 				href="https://www.instagram.com/pangaea.band/"
 				target="_blank"
 				rel="noreferrer">⧉pangaea</a
-			>, or perusing London's offering of gigs, jams and sessions.
+			>, tinkering with synths and loopers with shinkibeetz, or perusing London's offering of gigs,
+			jams and sessions.
 		</p>
 	</div>
 </div>
