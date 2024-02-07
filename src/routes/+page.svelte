@@ -202,7 +202,7 @@
 			height: 100vh;
 		}
 		&.variable {
-			padding-top: 250px;
+			padding-top: 150px;
 			padding-bottom: 250px;
 			height: 100%;
 			min-height: 100vh;
@@ -254,7 +254,7 @@
 	@media (max-width: 450px) {
 		.nav-container {
 			flex-direction: column;
-			align-items: center;
+			align-items: start;
 		}
 	}
 	.link {
