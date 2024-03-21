@@ -72,7 +72,7 @@
 				</p>
 				<p><i>(A work-in-progress commission. react/next.js frontend and sanity.io CMS)</i></p>
 			</a> -->
-		<a
+		<!-- <a
 			class="link project"
 			href="https://lotusnova.org"
 			target="_blank"
@@ -82,7 +82,7 @@
 			<h3>⧉ Lotus Nova</h3>
 			<p>A landing page for the Lotus Nova event organisers and artist talent platform .</p>
 			<p><i>(WIP react/next.js frontend and sanity.io CMS)</i></p>
-		</a>
+		</a> -->
 		<a
 			class="link project"
 			href="https://www.rebekahreidviolin.co.uk/"
