@@ -40,22 +40,33 @@
 			html/css, react, node.js and a variety of related technologies.
 		</p>
 		<p>
-			I spent 4 years working with IBM iX design consultancy, building bespoke websites for a
-			diverse range of clients. Following IBM, I moved to <a
+			Currently I work as a contractor (former Senior Full Stack Engineer) for <a
 				class="inline"
 				href="https://www.wavepaths.com"
 				target="_blank"
 				rel="noreferrer"
 			>
-				⧉wavepaths
-			</a> as a senior full-stack engineer, working primarily on user interfaces and with their proprietary
-			music generation systems.
+				⧉wavepaths</a
+			>, who facilitate unique, personalised music experiences for therapeutic use. I predominantly
+			work on user interfaces, back end processes and dev-ops tasks on their web applications,
+			mobile applications and proprietary music generation systems.
 		</p>
 		<p>
-			Currently I work as a freelance web developer, covering everything from bespoke builds, to
-			maintenance, to working with website builder systems.
+			I also continue to work freelance, building custom sites and utilising web-based technologies
+			for clients.
 		</p>
-		<h2>current projects:</h2>
+		<p>
+			Prior to this, I spent 4 years working with <a
+				class="inline"
+				href="https://www.wavepaths.com"
+				target="_blank"
+				rel="noreferrer"
+			>
+				⧉IBM iX design consultancy</a
+			> as a Senior Interactive Engineer, building bespoke websites for a diverse range of clients.
+		</p>
+
+		<h2>current // recent projects:</h2>
 	</div>
 	<div id="projects">
 		<!-- <a
@@ -65,7 +76,7 @@
 				rel="noreferrer"
 				style="text-align: left"
 			>
-				<h3>⧉ Orii Community</h3>
+				<h3>⧉Orii Community</h3>
 				<p>
 					A website for Orii Community, a collective of instrumentalist, singers, rappers and
 					artists creating live, improvised music in London
@@ -79,10 +90,32 @@
 			rel="noreferrer"
 			style="text-align: left"
 		>
-			<h3>⧉ Lotus Nova</h3>
+			<h3>⧉Lotus Nova</h3>
 			<p>A landing page for the Lotus Nova event organisers and artist talent platform .</p>
 			<p><i>(WIP react/next.js frontend and sanity.io CMS)</i></p>
 		</a> -->
+		<a
+			class="link project"
+			href="https://wavepaths.com/"
+			target="_blank"
+			rel="noreferrer"
+			style="text-align: left"
+		>
+			<h3>⧉ Wavepaths</h3>
+			<p>Contractor working as full stack engineer</p>
+			<p><i>(react,node.js, bespoke music generation systems)</i></p>
+		</a>
+		<a
+			class="link project"
+			href="https://ianthe.house"
+			target="_blank"
+			rel="noreferrer"
+			style="text-align: left"
+		>
+			<h3>⧉ Ianthe House</h3>
+			<p>Helping to create a community for women recovering from eating disorders</p>
+			<p><i>(heavily customised wordpress site)</i></p>
+		</a>
 		<a
 			class="link project"
 			href="https://www.rebekahreidviolin.co.uk/"
@@ -92,7 +125,7 @@
 		>
 			<h3>⧉ Rebekah Reid // TÄPP Collective</h3>
 			<p>A site for violinist, band leader and composer Bekah Reid</p>
-			<p><i>(maintenance of a wix site)</i></p>
+			<p><i>(refresh + maintenance of a wix site)</i></p>
 		</a>
 		<a
 			class="link project"
@@ -103,7 +136,7 @@
 		>
 			<h3>⧉ Deptford X</h3>
 			<p>A website for Deptford x festival of visual arts.</p>
-			<p><i>(maintenance of wordpress site)</i></p>
+			<p><i>(refresh + maintenance of a wordpress site)</i></p>
 		</a>
 		<a
 			class="link project"
@@ -139,38 +172,111 @@
 	<div class="flex content">
 		<h2>music.</h2>
 		<p>
-			I am a multi-instrumentalist, composer and producer. You can find me exploring a wide range of
-			genres including jazz, electronic, folk and most things in-between.
+			I am a multi-instrumentalist, composer, producer, and event curator. You can find me exploring
+			a wide range of genres including jazz, electronic, folk, indie and all the spaces between. As
+			a part of <a
+				class="inline"
+				href="https://www.instagram.com/dirtynice_exe/"
+				target="_blank"
+				rel="noreferrer">⧉Dirty Nice</a
+			>, I am currently an awardee of the
+			<a class="inline" href="https://thefac.org/step-up" target="_blank" rel="noreferrer"
+				>⧉2024 Amazon Featured Artist Coalition Step Up fund</a
+			>.
 		</p>
 		<p>
-			As a session musician, I work closely with projects such as Orii Community, Dirty Nice, Zami
-			Yazeed, Millie Gibson, EllC, Rebekah Reid and TÄPP Collective. I have recorded live for BBC
-			Introducing at Maida Vale Studios and for Woodburner music at Dalston Curve Garden, on top of
-			having the opportunity to record and perform at iconic places such as Total Refreshment
-			Centre, Pizza Express Soho, House of Koko, Servant Jazz Quarters, London Jazz Festival and
-			Sofar Sounds.
+			As a session musician, I work closely with projects such as <a
+				class="inline"
+				href="https://www.instagram.com/orii.community/"
+				target="_blank"
+				rel="noreferrer">⧉Orii Community</a
+			>,
+
+			<a
+				class="inline"
+				href="https://www.instagram.com/dirtynice_exe/"
+				target="_blank"
+				rel="noreferrer">⧉Dirty Nice</a
+			>,
+			<a class="inline" href="https://www.instagram.com/pecqband/" target="_blank" rel="noreferrer"
+				>⧉pecq</a
+			>,
+			<a class="inline" href="https://www.instagram.com/noum_._/" target="_blank" rel="noreferrer"
+				>⧉Noum</a
+			>,
+			<a class="inline" href="https://www.instagram.com/marysho/" target="_blank" rel="noreferrer"
+				>⧉Mary Sho</a
+			>,
+			<a
+				class="inline"
+				href="https://www.instagram.com/millieegibson/"
+				target="_blank"
+				rel="noreferrer">⧉Millie Gibson</a
+			>,
+			<a class="inline" href="https://www.instagram.com/ellcsings/" target="_blank" rel="noreferrer"
+				>⧉EllC</a
+			>,
+			<a
+				class="inline"
+				href="https://www.instagram.com/bekareidviolin/"
+				target="_blank"
+				rel="noreferrer">⧉Rebekah Reid</a
+			>,
+			<a
+				class="inline"
+				href="https://www.instagram.com/tappcollective/"
+				target="_blank"
+				rel="noreferrer">⧉TÄPP Collective</a
+			>. I have recorded and performed at such places as Abbey Road Studios, BBC Introducing at
+			Maida Vale, Total Refreshment Centre, London Jazz Festival at Pizza Express Soho, and for
+			Woodburner and Sofar Sounds.
 		</p>
 		<div class="youtube-container">
 			<Youtube id="6v9Zjigammk" />
 		</div>
+		<p>
+			I curate and host <a
+				class="inline"
+				href="https://www.instagram.com/donut__jam/"
+				target="_blank"
+				rel="noreferrer">⧉donut jam</a
+			>, a monthly evening of sonic and visual experimentation held at and produced collaboratively
+			with
+			<a class="inline" href="https://www.staffordshirest.com/" target="_blank" rel="noreferrer"
+				>⧉Staffordshire St</a
+			>
+			in Peckham. Bands from London's improvisational music scene are invited to perform in the round
+			alongside interactive visual projection, followed by an open jam featuring London's most talented
+			musicians. The project recently went international, playing Le Cocon at
+			<a
+				class="inline"
+				href="https://petethemonkeyfestival.org/en/"
+				target="_blank"
+				rel="noreferrer">⧉Pete the Monkey</a
+			> festival in France.
+		</p>
 		<p>
 			My compositions have found their way into podcasts and exhibitions, most recently scoring the
 			exhibition and short film <a
 				class="inline"
 				href="https://www.staffordshirest.com/thestore"
 				target="_blank"
-				rel="noreferrer"><i>⧉The Store</i></a
-			> by Tilly Wace and Kaia Goodenough, held at Staffordshire Street gallery in Peckham.
-		</p>
-		<p>
-			Also held at the gallery is <a
+				rel="noreferrer">⧉The Store</a
+			>
+			by
+			<a
 				class="inline"
-				href="https://www.instagram.com/donut__jam/"
+				href="https://www.instagram.com/tilly_wace/"
 				target="_blank"
-				rel="noreferrer"><i>⧉Donut Jam</i></a
-			>, a monthly evening of sonic and visual collaboration and experimentation that I curate.
-			Bands from London's music scene are invited to perform in the round to a backdrop of
-			interactive visual projection, followed by an open jam featuring London's most talented.
+				rel="noreferrer">⧉Tilly Wace</a
+			>
+			and
+			<a
+				class="inline"
+				href="https://www.instagram.com/kaiagoodenough/"
+				target="_blank"
+				rel="noreferrer">⧉Kaia Goodenough</a
+			>, also held at Staffordshire Street gallery.
 		</p>
 		<p>
 			You can otherwise find me playing bass with my band <a
