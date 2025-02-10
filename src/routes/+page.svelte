@@ -187,6 +187,33 @@
 				>⧉2024 Amazon Featured Artist Coalition Step Up fund</a
 			>.
 		</p>
+
+		<div class="youtube-container">
+			<Youtube id="ymjEdvj5SV8" />
+		</div>
+		<p>
+			I produce, curate and host <a
+				class="inline"
+				href="https://www.instagram.com/donut__jam/"
+				target="_blank"
+				rel="noreferrer">⧉donut jam</a
+			>, a monthly evening of sonic and visual experimentation held at and produced alongside with
+			<a class="inline" href="https://www.staffordshirest.com/" target="_blank" rel="noreferrer"
+				>⧉Staffordshire St</a
+			>
+			in Peckham. Bands from London's improvisational music scene are invited to perform in the round
+			alongside interactive visual projection, followed by an open jam featuring London's most talented
+			musicians. The project recently went international, playing Le Cocon at
+			<a
+				class="inline"
+				href="https://petethemonkeyfestival.org/en/"
+				target="_blank"
+				rel="noreferrer">⧉Pete the Monkey</a
+			> festival in France and The Room in Shibuya, Tokyo.
+		</p>
+		<div class="youtube-container">
+			<Youtube id="6v9Zjigammk" />
+		</div>
 		<p>
 			As a session musician, I work closely with projects such as <a
 				class="inline"
@@ -234,32 +261,6 @@
 			Maida Vale, Total Refreshment Centre, The Roundhouse, London Jazz Festival at Pizza Express
 			Soho, and for Woodburner and Sofar Sounds.
 		</p>
-		<div class="youtube-container">
-			<Youtube id="ymjEdvj5SV8" />
-		</div>
-		<p>
-			I produce, curate and host <a
-				class="inline"
-				href="https://www.instagram.com/donut__jam/"
-				target="_blank"
-				rel="noreferrer">⧉donut jam</a
-			>, a monthly evening of sonic and visual experimentation held at and produced alongside with
-			<a class="inline" href="https://www.staffordshirest.com/" target="_blank" rel="noreferrer"
-				>⧉Staffordshire St</a
-			>
-			in Peckham. Bands from London's improvisational music scene are invited to perform in the round
-			alongside interactive visual projection, followed by an open jam featuring London's most talented
-			musicians. The project recently went international, playing Le Cocon at
-			<a
-				class="inline"
-				href="https://petethemonkeyfestival.org/en/"
-				target="_blank"
-				rel="noreferrer">⧉Pete the Monkey</a
-			> festival in France and The Room in Shibuya, Tokyo.
-		</p>
-		<div class="youtube-container">
-			<Youtube id="6v9Zjigammk" />
-		</div>
 		<p>
 			My compositions have found their way into podcasts and exhibitions, most recently scoring the
 			exhibition and short film <a
