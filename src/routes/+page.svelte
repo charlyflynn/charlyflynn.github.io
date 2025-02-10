@@ -1,7 +1,6 @@
 <script lang="ts">
 	import Clouds from '../components/Clouds.svelte';
 	import Youtube from 'svelte-youtube-embed';
-	// import Arrow from '../components/Arrow.svelte';
 	import Navigation from '../components/Navigation.svelte';
 </script>
 
@@ -17,21 +16,27 @@
 			<a class="inline" href="#music">musician</a> based in London.
 		</p>
 		<div class="nav-container">
+			<a
+				class="link"
+				href="https://www.instagram.com/flarliechynn"
+				target="_blank"
+				rel="noreferrer"
+			>
+				⧉ instagram
+			</a>
+			<a class="link" href="https://www.instagram.com/donut__jam" target="_blank" rel="noreferrer">
+				⧉ donut jam
+			</a>
 			<a class="link" href="https://github.com/charlyflynn" target="_blank" rel="noreferrer"
 				>⧉ github</a
 			>
 			<a class="link" href="https://www.linkedin.com/in/flynnch" target="_blank" rel="noreferrer">
 				⧉ linkedin
 			</a>
-			<a class="link" href="https://soundcloud.com/charlieflynn" target="_blank" rel="noreferrer">
-				⧉ soundcloud
-			</a>
 		</div>
 	</div>
-	<!-- <Arrow direction="down" href="#projects" /> -->
 </div>
 <div id="tech" class="variable page">
-	<!-- <Arrow direction="up" href="#about" /> -->
 	<Clouds offset={15} />
 	<div class="flex content">
 		<h2>tech.</h2>
@@ -40,7 +45,7 @@
 			html/css, react, node.js and a variety of related technologies.
 		</p>
 		<p>
-			Currently I work as a contractor (former Senior Full Stack Engineer) for <a
+			Currently I work as a contractor (formerly Senior Full Stack Engineer) for <a
 				class="inline"
 				href="https://www.wavepaths.com"
 				target="_blank"
@@ -48,12 +53,11 @@
 			>
 				⧉wavepaths</a
 			>, who facilitate unique, personalised music experiences for therapeutic use. I predominantly
-			work on user interfaces, back end processes and dev-ops tasks on their web applications,
-			mobile applications and proprietary music generation systems.
+			work on user interfaces and back end processes.
 		</p>
 		<p>
-			I also continue to work freelance, building custom sites and utilising web-based technologies
-			for clients.
+			I also continue to work freelance, designing and building custom sites predominantly with
+			react, and also utilising web-based platforms for clients.
 		</p>
 		<p>
 			Prior to this, I spent 4 years working with <a
@@ -63,7 +67,8 @@
 				rel="noreferrer"
 			>
 				⧉IBM iX design consultancy</a
-			> as a Senior Interactive Engineer, building bespoke websites for a diverse range of clients.
+			> as a Senior Interactive Engineer, working as a full stack engineer for a diverse range of clients
+			at all scales.
 		</p>
 
 		<h2>current // recent projects:</h2>
@@ -83,17 +88,17 @@
 				</p>
 				<p><i>(A work-in-progress commission. react/next.js frontend and sanity.io CMS)</i></p>
 			</a> -->
-		<!-- <a
+		<a
 			class="link project"
 			href="https://lotusnova.org"
 			target="_blank"
 			rel="noreferrer"
 			style="text-align: left"
 		>
-			<h3>⧉Lotus Nova</h3>
-			<p>A landing page for the Lotus Nova event organisers and artist talent platform .</p>
-			<p><i>(WIP react/next.js frontend and sanity.io CMS)</i></p>
-		</a> -->
+			<h3>⧉ Lotus Nova</h3>
+			<p>Custom designed and built site Lotus Nova event organisers and artist talent platform .</p>
+			<p><i>(react/next.js/tailwind/shadcn.ui frontend and sanity.io CMS)</i></p>
+		</a>
 		<a
 			class="link project"
 			href="https://wavepaths.com/"
@@ -102,7 +107,7 @@
 			style="text-align: left"
 		>
 			<h3>⧉ Wavepaths</h3>
-			<p>Contractor working as full stack engineer</p>
+			<p>Music as therapy - contractor working as full stack engineer</p>
 			<p><i>(react,node.js, bespoke music generation systems)</i></p>
 		</a>
 		<a
@@ -114,7 +119,7 @@
 		>
 			<h3>⧉ Ianthe House</h3>
 			<p>Helping to create a community for women recovering from eating disorders</p>
-			<p><i>(heavily customised wordpress site)</i></p>
+			<p><i>(styling/customising wordpress site)</i></p>
 		</a>
 		<a
 			class="link project"
@@ -164,17 +169,15 @@
 			<p><i>(a squarespace commission)</i></p>
 		</a>
 	</div>
-	<!-- <Arrow direction="down" href="#music" /> -->
 </div>
 <div id="music" class="variable page">
-	<!-- <Arrow direction="up" href="#about" /> -->
 	<Clouds offset={32} />
 	<div class="flex content">
 		<h2>music.</h2>
 		<p>
-			I am a multi-instrumentalist, composer, producer, and event curator. You can find me exploring
-			a wide range of genres including jazz, electronic, folk, indie and all the spaces between. As
-			a part of <a
+			I am a multi-instrumentalist, composer, producer, event curator and DJ. You can find me
+			exploring a wide range of genres including jazz, electronic, folk, indie, pop and all the
+			spaces between. As a part of <a
 				class="inline"
 				href="https://www.instagram.com/dirtynice_exe/"
 				target="_blank"
@@ -228,20 +231,19 @@
 				target="_blank"
 				rel="noreferrer">⧉TÄPP Collective</a
 			>. I have recorded and performed at such places as Abbey Road Studios, BBC Introducing at
-			Maida Vale, Total Refreshment Centre, London Jazz Festival at Pizza Express Soho, and for
-			Woodburner and Sofar Sounds.
+			Maida Vale, Total Refreshment Centre, The Roundhouse, London Jazz Festival at Pizza Express
+			Soho, and for Woodburner and Sofar Sounds.
 		</p>
 		<div class="youtube-container">
-			<Youtube id="6v9Zjigammk" />
+			<Youtube id="ymjEdvj5SV8" />
 		</div>
 		<p>
-			I curate and host <a
+			I produce, curate and host <a
 				class="inline"
 				href="https://www.instagram.com/donut__jam/"
 				target="_blank"
 				rel="noreferrer">⧉donut jam</a
-			>, a monthly evening of sonic and visual experimentation held at and produced collaboratively
-			with
+			>, a monthly evening of sonic and visual experimentation held at and produced alongside with
 			<a class="inline" href="https://www.staffordshirest.com/" target="_blank" rel="noreferrer"
 				>⧉Staffordshire St</a
 			>
@@ -253,8 +255,11 @@
 				href="https://petethemonkeyfestival.org/en/"
 				target="_blank"
 				rel="noreferrer">⧉Pete the Monkey</a
-			> festival in France.
+			> festival in France and The Room in Shibuya, Tokyo.
 		</p>
+		<div class="youtube-container">
+			<Youtube id="6v9Zjigammk" />
+		</div>
 		<p>
 			My compositions have found their way into podcasts and exhibitions, most recently scoring the
 			exhibition and short film <a
@@ -278,7 +283,10 @@
 				rel="noreferrer">⧉Kaia Goodenough</a
 			>, also held at Staffordshire Street gallery.
 		</p>
-		<p>
+		<div class="youtube-container">
+			<Youtube id="6BgAyUiUG20" />
+		</div>
+		<!-- <p>
 			You can otherwise find me playing bass with my band <a
 				class="inline"
 				href="https://www.instagram.com/pangaea.band/"
@@ -286,7 +294,7 @@
 				rel="noreferrer">⧉pangaea</a
 			>, tinkering with synths and loopers with shinkibeetz, or perusing London's offering of gigs,
 			jams and sessions.
-		</p>
+		</p> -->
 	</div>
 </div>
 
