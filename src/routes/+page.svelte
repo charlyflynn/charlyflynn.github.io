@@ -41,8 +41,8 @@
 	<div class="flex content">
 		<h2>tech.</h2>
 		<p>
-			I am a full stack software engineer, working predominantly with javascript/typescript,
-			html/css, react, node.js and a variety of related technologies.
+			I am a full stack software engineer, working primarily with javascript/typescript, html/css,
+			react, node.js and a wide variety of technologies within this eco-system.
 		</p>
 		<p>
 			Currently I work as a contractor (formerly Senior Full Stack Engineer) for <a
@@ -56,8 +56,8 @@
 			work on user interfaces and back end processes.
 		</p>
 		<p>
-			I also continue to work freelance, designing and building custom sites predominantly with
-			react, and also utilising web-based platforms for clients.
+			I also continue to work freelance, designing and building custom sites built with react,
+			sanity.io and also utilising web-based platforms for clients.
 		</p>
 		<p>
 			Prior to this, I spent 4 years working with <a
@@ -67,8 +67,8 @@
 				rel="noreferrer"
 			>
 				⧉IBM iX design consultancy</a
-			> as a Senior Interactive Engineer, working as a full stack engineer for a diverse range of clients
-			at all scales.
+			> as a Senior Interactive Engineer (full stack) for a diverse range of clients and industries,
+			at all scales. I specialised in bringing unique experiences to customers and end-users.
 		</p>
 
 		<h2>current // recent projects:</h2>
@@ -88,6 +88,22 @@
 				</p>
 				<p><i>(A work-in-progress commission. react/next.js frontend and sanity.io CMS)</i></p>
 			</a> -->
+		<a
+			class="link project"
+			href="https://in-my-womb.vercel.app"
+			target="_blank"
+			rel="noreferrer"
+			style="text-align: left"
+		>
+			<h3>⧉ In My Womb</h3>
+			<p>
+				A small interactive web game to celebrate and pre-empt the release of Elsa's (<i
+					>Sampha/Idrisi
+				</i>
+				Ensemble) track <i>In My Womb</i>.
+			</p>
+			<p><i>(WIP project - react/phaser)</i></p>
+		</a>
 		<a
 			class="link project"
 			href="https://lotusnova.org"
@@ -231,6 +247,18 @@
 			<a class="inline" href="https://www.instagram.com/pecqband/" target="_blank" rel="noreferrer"
 				>⧉pecq</a
 			>,
+			<a
+				class="inline"
+				href="https://www.instagram.com/queen.kaltoum/"
+				target="_blank"
+				rel="noreferrer">⧉Queen Kaltoum</a
+			>,
+			<a
+				class="inline"
+				href="https://www.instagram.com/millieegibson/"
+				target="_blank"
+				rel="noreferrer">⧉Millie Gibson</a
+			>,
 			<a class="inline" href="https://www.instagram.com/noum_._/" target="_blank" rel="noreferrer"
 				>⧉Noum</a
 			>,
@@ -239,27 +267,19 @@
 			>,
 			<a
 				class="inline"
-				href="https://www.instagram.com/millieegibson/"
-				target="_blank"
-				rel="noreferrer">⧉Millie Gibson</a
-			>,
-			<a class="inline" href="https://www.instagram.com/ellcsings/" target="_blank" rel="noreferrer"
-				>⧉EllC</a
-			>,
-			<a
-				class="inline"
 				href="https://www.instagram.com/bekareidviolin/"
 				target="_blank"
 				rel="noreferrer">⧉Rebekah Reid</a
-			>,
+			>
+			and
 			<a
 				class="inline"
 				href="https://www.instagram.com/tappcollective/"
 				target="_blank"
 				rel="noreferrer">⧉TÄPP Collective</a
 			>. I have recorded and performed at such places as Abbey Road Studios, BBC Introducing at
-			Maida Vale, Total Refreshment Centre, The Roundhouse, London Jazz Festival at Pizza Express
-			Soho, and for Woodburner and Sofar Sounds.
+			Maida Vale, Total Refreshment Centre, The Roundhouse, London Jazz Festival, and for Woodburner
+			and Sofar Sounds.
 		</p>
 		<p>
 			My compositions have found their way into podcasts and exhibitions, most recently scoring the
