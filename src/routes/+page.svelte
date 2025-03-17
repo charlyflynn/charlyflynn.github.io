@@ -191,9 +191,9 @@
 	<div class="flex content">
 		<h2>music.</h2>
 		<p>
-			I am a multi-instrumentalist, composer, producer, event curator and DJ. You can find me
-			exploring a wide range of genres including jazz, electronic, folk, indie, pop and all the
-			spaces between. As a part of <a
+			I am a session musician, multi-instrumentalist, composer, producer, band leader, event
+			curator/producer/promoter and occasional DJ. You can find me exploring a wide range of genres
+			including jazz, electronic, folk, indie, pop and all the spaces between. As a part of <a
 				class="inline"
 				href="https://www.instagram.com/dirtynice_exe/"
 				target="_blank"
@@ -203,9 +203,8 @@
 				>⧉2024 Amazon Featured Artist Coalition Step Up fund</a
 			>.
 		</p>
-
 		<div class="youtube-container">
-			<Youtube id="ymjEdvj5SV8" />
+			<Youtube id="6v9Zjigammk" />
 		</div>
 		<p>
 			I produce, curate and host <a
@@ -228,7 +227,7 @@
 			> festival in France and The Room in Shibuya, Tokyo.
 		</p>
 		<div class="youtube-container">
-			<Youtube id="6v9Zjigammk" />
+			<Youtube id="ymjEdvj5SV8" />
 		</div>
 		<p>
 			As a session musician, I work closely with projects such as <a
