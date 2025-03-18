@@ -88,13 +88,7 @@
 				</p>
 				<p><i>(A work-in-progress commission. react/next.js frontend and sanity.io CMS)</i></p>
 			</a> -->
-		<a
-			class="link project"
-			href="https://in-my-womb.vercel.app"
-			target="_blank"
-			rel="noreferrer"
-			style="text-align: left"
-		>
+		<a class="link project disabled" target="_blank" rel="noreferrer" style="text-align: left">
 			<h3>⧉ In My Womb</h3>
 			<p>
 				A small interactive web game to celebrate and pre-empt the release of Elsa's (<i
@@ -102,7 +96,7 @@
 				</i>
 				Ensemble) track <i>In My Womb</i>.
 			</p>
-			<p><i>(WIP project - react/phaser)</i></p>
+			<p><i>(WIP project coming soong - built with react/phaser)</i></p>
 		</a>
 		<a
 			class="link project"
@@ -343,6 +337,9 @@
 		}
 	}
 
+	.disabled {
+		cursor: not-allowed;
+	}
 	.content {
 		box-sizing: border-box;
 		padding: 3em;
