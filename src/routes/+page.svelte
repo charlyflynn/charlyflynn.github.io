@@ -62,7 +62,7 @@
 		<p>
 			Prior to this, I spent 4 years working with <a
 				class="inline"
-				href="https://www.wavepaths.com"
+				href="https://www.ibm.com/consulting/ibmix"
 				target="_blank"
 				rel="noreferrer"
 			>
