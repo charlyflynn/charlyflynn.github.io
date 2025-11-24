@@ -41,37 +41,35 @@
 	<div class="flex content">
 		<h2>tech.</h2>
 		<p>
-			I am a full stack software engineer, working primarily with javascript/typescript, html/css,
-			react, node.js and a wide variety of technologies within this eco-system.
+			I am a full stack software engineer, primarily using javascript/typescript, html/css, react,
+			node.js and a wide variety of technologies within this eco-system.
 		</p>
 		<p>
-			Currently I work as a contractor (formerly Senior Full Stack Engineer) for <a
+			Currently I freelance, designing and building custom sites and games for clients, and
+			particularyl enjoy making fun things that look pretty.
+		</p>
+		<p>
+			Previously I was a Senior Engineer at <a
 				class="inline"
 				href="https://www.wavepaths.com"
 				target="_blank"
 				rel="noreferrer"
 			>
 				⧉wavepaths</a
-			>, who facilitate unique, personalised music experiences for therapeutic use. I predominantly
-			work on user interfaces and back end processes.
-		</p>
-		<p>
-			I also continue to work freelance, designing and building custom sites built with react,
-			sanity.io and also utilising web-based platforms for clients.
-		</p>
-		<p>
-			Prior to this, I spent 4 years working with <a
+			>, who facilitate unique, personalised music experiences for therapeutic use. Prior to this, I
+			spent 4 years with
+			<a
 				class="inline"
 				href="https://www.ibm.com/consulting/ibmix"
 				target="_blank"
 				rel="noreferrer"
 			>
 				⧉IBM iX design consultancy</a
-			> as a Senior Interactive Engineer (full stack) for a diverse range of clients and industries,
-			at all scales. I specialised in bringing unique experiences to customers and end-users.
+			> as a Senior Interactive Engineer, working for a diverse range of clients and industries at all
+			scales.
 		</p>
 
-		<h2>current // recent projects:</h2>
+		<h2>recent projects:</h2>
 	</div>
 	<div id="projects">
 		<!-- <a
@@ -88,15 +86,16 @@
 				</p>
 				<p><i>(A work-in-progress commission. react/next.js frontend and sanity.io CMS)</i></p>
 			</a> -->
-		<a class="link project disabled" target="_blank" rel="noreferrer" style="text-align: left">
+		<a
+			href="https://puzzle.elsaselsas.com/"
+			class="link project"
+			target="_blank"
+			rel="noreferrer"
+			style="text-align: left"
+		>
 			<h3>⧉ In My Womb</h3>
-			<p>
-				A small interactive web game to celebrate and pre-empt the release of Elsa's (<i
-					>Sampha/Idrisi
-				</i>
-				Ensemble) track <i>In My Womb</i>.
-			</p>
-			<p><i>(WIP project coming soong - built with react/phaser)</i></p>
+			<p>an interactive audio puzzle built for Elsas upcoming EP release, <i>In My Womb</i></p>
+			<p><i>built with phaser</i></p>
 		</a>
 		<a
 			class="link project"
@@ -106,10 +105,13 @@
 			style="text-align: left"
 		>
 			<h3>⧉ Lotus Nova</h3>
-			<p>Custom designed and built site Lotus Nova event organisers and artist talent platform .</p>
-			<p><i>(react/next.js/tailwind/shadcn.ui frontend and sanity.io CMS)</i></p>
+			<p>
+				custom design and build for Lotus Nova, a team of event organisers and artist talent
+				platform based in London
+			</p>
+			<p><i>built with react and sanity</i></p>
 		</a>
-		<a
+		<!-- <a
 			class="link project"
 			href="https://wavepaths.com/"
 			target="_blank"
@@ -119,8 +121,8 @@
 			<h3>⧉ Wavepaths</h3>
 			<p>Music as therapy - contractor working as full stack engineer</p>
 			<p><i>(react,node.js, bespoke music generation systems)</i></p>
-		</a>
-		<a
+		</a> -->
+		<!-- <a
 			class="link project"
 			href="https://ianthe.house"
 			target="_blank"
@@ -130,8 +132,8 @@
 			<h3>⧉ Ianthe House</h3>
 			<p>Helping to create a community for women recovering from eating disorders</p>
 			<p><i>(styling/customising wordpress site)</i></p>
-		</a>
-		<a
+		</a> -->
+		<!-- <a
 			class="link project"
 			href="https://www.rebekahreidviolin.co.uk/"
 			target="_blank"
@@ -141,8 +143,8 @@
 			<h3>⧉ Rebekah Reid // TÄPP Collective</h3>
 			<p>A site for violinist, band leader and composer Bekah Reid</p>
 			<p><i>(refresh + maintenance of a wix site)</i></p>
-		</a>
-		<a
+		</a> -->
+		<!-- <a
 			class="link project"
 			href="https://www.deptfordx.org"
 			target="_blank"
@@ -152,8 +154,8 @@
 			<h3>⧉ Deptford X</h3>
 			<p>A website for Deptford x festival of visual arts.</p>
 			<p><i>(refresh + maintenance of a wordpress site)</i></p>
-		</a>
-		<a
+		</a> -->
+		<!-- <a
 			class="link project"
 			href="https://acordes.netlify.app"
 			target="_blank"
@@ -166,8 +168,8 @@
 				well as point and click.
 			</p>
 			<p><i>(a work-in-progress pet project)</i></p>
-		</a>
-		<a
+		</a> -->
+		<!-- <a
 			class="link project"
 			href="https://charliyoga.com"
 			target="_blank"
@@ -177,7 +179,7 @@
 			<h3>⧉ Charli Livingstone Yoga</h3>
 			<p>Professional website for yoga instructor Charli Livingstone.</p>
 			<p><i>(a squarespace commission)</i></p>
-		</a>
+		</a> -->
 	</div>
 </div>
 <div id="music" class="variable page">
@@ -186,39 +188,65 @@
 		<h2>music.</h2>
 		<p>
 			I am a session musician, multi-instrumentalist, composer, producer, band leader, event
-			curator/producer/promoter and occasional DJ. You can find me exploring a wide range of genres
-			including jazz, electronic, folk, indie, pop and all the spaces between. As a part of <a
+			curator/producer/promoter and occasional DJ. You can find me exploring, touring and recording
+			in a wide range of genres including jazz, electronic, folk, indie, pop and all the spaces
+			between. As a part of <a
 				class="inline"
 				href="https://www.instagram.com/dirtynice_exe/"
 				target="_blank"
 				rel="noreferrer">⧉Dirty Nice</a
 			>, I am currently an awardee of the
 			<a class="inline" href="https://thefac.org/step-up" target="_blank" rel="noreferrer"
-				>⧉2024 Amazon Featured Artist Coalition Step Up fund</a
+				>⧉2024 Amazon Featured Artist Coalition Step Up Fund</a
+			>, and also a recipient of the
+			<a
+				class="inline"
+				href="https://prsfoundation.com/funding-support/funding-for-industry-professionals/early-career-promoter-fund/"
+				target="_blank"
+				rel="noreferrer">⧉PRS Early Career Promoter Fund</a
+			>
+			for my work with
+			<a
+				class="inline"
+				href="https://www.instagram.com/donut__jam/"
+				target="_blank"
+				rel="noreferrer">⧉donut</a
 			>.
 		</p>
 		<div class="youtube-container">
 			<Youtube id="6v9Zjigammk" />
 		</div>
 		<p>
-			I produce, curate and host <a
+			<a
 				class="inline"
 				href="https://www.instagram.com/donut__jam/"
 				target="_blank"
 				rel="noreferrer">⧉donut jam</a
-			>, a monthly evening of sonic and visual experimentation held at and produced alongside with
+			>
+			is a monthly evening of experimentation through sound, light and movement, taking place in the
+			round at
 			<a class="inline" href="https://www.staffordshirest.com/" target="_blank" rel="noreferrer"
 				>⧉Staffordshire St</a
 			>
-			in Peckham. Bands from London's improvisational music scene are invited to perform in the round
-			alongside interactive visual projection, followed by an open jam featuring London's most talented
-			musicians. The project recently went international, playing Le Cocon at
+			in Peckham. I produce, curate and host the night, inviting bands from London's improvisational
+			music scene to perform in the round alongside projections by a visual artist, followed by an open
+			jam featuring London's most talented musicians, DJ's, dancers and vendor pop-ups. donut also performs
+			internationally, with a variety of band lineups, with myself as bandleader. Most recently we have
+			been invited to play Le Cocon at
 			<a
 				class="inline"
 				href="https://petethemonkeyfestival.org/en/"
 				target="_blank"
 				rel="noreferrer">⧉Pete the Monkey</a
-			> festival in France and The Room in Shibuya, Tokyo.
+			>
+			festival in France, The Room in Shibuya - Tokyo, and more recently on home turf
+			<a class="inline" href="https://www.peckhamfestival.org/" target="_blank" rel="noreferrer"
+				>⧉Peckahm Festival</a
+			>
+			and
+			<a class="inline" href="https://jazzonwick.co.uk/" target="_blank" rel="noreferrer"
+				>⧉Jazz on Wick</a
+			>.
 		</p>
 		<div class="youtube-container">
 			<Youtube id="ymjEdvj5SV8" />
@@ -226,25 +254,41 @@
 		<p>
 			As a session musician, I work closely with projects such as <a
 				class="inline"
-				href="https://www.instagram.com/orii.community/"
-				target="_blank"
-				rel="noreferrer">⧉Orii Community</a
-			>,
-
-			<a
-				class="inline"
 				href="https://www.instagram.com/dirtynice_exe/"
 				target="_blank"
 				rel="noreferrer">⧉Dirty Nice</a
 			>,
-			<a class="inline" href="https://www.instagram.com/pecqband/" target="_blank" rel="noreferrer"
-				>⧉pecq</a
+			<a
+				class="inline"
+				href="https://www.instagram.com/suedejazz_collective/"
+				target="_blank"
+				rel="noreferrer">⧉Suede Jazz Collective</a
+			>,
+			<a
+				class="inline"
+				href="https://www.instagram.com/orii.community/"
+				target="_blank"
+				rel="noreferrer">⧉Orii Community</a
 			>,
 			<a
 				class="inline"
 				href="https://www.instagram.com/queen.kaltoum/"
 				target="_blank"
 				rel="noreferrer">⧉Queen Kaltoum</a
+			>,
+			<a
+				class="inline"
+				href="https://www.instagram.com/ritakamale
+/"
+				target="_blank"
+				rel="noreferrer">⧉Rita Kamale</a
+			>,
+			<a
+				class="inline"
+				href="https://www.instagram.com/willydelphiaa
+/"
+				target="_blank"
+				rel="noreferrer">⧉Willy Delphia</a
 			>,
 			<a
 				class="inline"
@@ -255,9 +299,9 @@
 			<a class="inline" href="https://www.instagram.com/noum_._/" target="_blank" rel="noreferrer"
 				>⧉Noum</a
 			>,
-			<a class="inline" href="https://www.instagram.com/marysho/" target="_blank" rel="noreferrer"
+			<!-- <a class="inline" href="https://www.instagram.com/marysho/" target="_blank" rel="noreferrer"
 				>⧉Mary Sho</a
-			>,
+			>, -->
 			<a
 				class="inline"
 				href="https://www.instagram.com/bekareidviolin/"
@@ -270,9 +314,9 @@
 				href="https://www.instagram.com/tappcollective/"
 				target="_blank"
 				rel="noreferrer">⧉TÄPP Collective</a
-			>. I have recorded and performed at such places as Abbey Road Studios, BBC Introducing at
-			Maida Vale, Total Refreshment Centre, The Roundhouse, London Jazz Festival, and for Woodburner
-			and Sofar Sounds.
+			>. I have recorded and performed at such places as Abbey Road Studios, Radio 1's Big Weekend,
+			BBC Introducing at Maida Vale, Total Refreshment Centre, The Roundhouse, London Jazz Festival,
+			Woodburner and Sofar Sounds.
 		</p>
 		<p>
 			My compositions have found their way into podcasts and exhibitions, most recently scoring the
@@ -295,7 +339,7 @@
 				href="https://www.instagram.com/kaiagoodenough/"
 				target="_blank"
 				rel="noreferrer">⧉Kaia Goodenough</a
-			>, also held at Staffordshire Street gallery.
+			>, held at Staffordshire Street gallery.
 		</p>
 		<div class="youtube-container">
 			<Youtube id="6BgAyUiUG20" />
@@ -337,9 +381,9 @@
 		}
 	}
 
-	.disabled {
+	/* .disabled {
 		cursor: not-allowed;
-	}
+	} */
 	.content {
 		box-sizing: border-box;
 		padding: 3em;
